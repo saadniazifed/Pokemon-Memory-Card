@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Pokemon-Memory-Card/static/css/main.e6c13ad2.css",
+    "main.js": "/Pokemon-Memory-Card/static/js/main.a2e112c2.js",
+    "index.html": "/Pokemon-Memory-Card/index.html",
+    "main.e6c13ad2.css.map": "/Pokemon-Memory-Card/static/css/main.e6c13ad2.css.map",
+    "main.a2e112c2.js.map": "/Pokemon-Memory-Card/static/js/main.a2e112c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.a2e112c2.js"
+  ]
+}
