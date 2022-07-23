@@ -1,22 +1,38 @@
-import React, { useEffect } from "react";
-import axios from "axios";
+import React from "react";
+import {
+  Pikachu,
+  Charizard,
+  Litten,
+  Sharpedo,
+  Zygarde,
+  Decidueye,
+  Garchomp,
+  Mimikyu,
+  Rayquaza,
+  Dragonite,
+  Gyarados,
+  Snorlax,
+} from "../../../pokemonImages/pokemonImg";
+
+import "./Cards.css";
 
 const Cards = () => {
-  const NUMBER_OF_POKEMONS = 20;
-
-  useEffect(() => {
-    getPokemon();
-  }, []);
-
-  async function getPokemon() {
-    for (let i = 1; i < NUMBER_OF_POKEMONS; i++) {
-      const res = await axios.get(`https://pokeapi.co/api/v2/pokemon/${i}`);
-      console.log(res.data.name);
-      console.log(res.data.sprites.front_default);
-    }
-  }
-
-  return <></>;
+  return (
+    <div className="card--container">
+      <img src={Pikachu} alt="pikachu" className="pokemon--image" />
+      <img src={Charizard} alt="charizard" className="pokemon--image" />
+      <img src={Litten} alt="litten" className="pokemon--image" />
+      <img src={Sharpedo} alt="sharpedo" className="pokemon--image" />
+      <img src={Zygarde} alt="zygarde" className="pokemon--image" />
+      <img src={Decidueye} alt="decidueye" className="pokemon--image" />
+      <img src={Garchomp} alt="garchomp" className="pokemon--image" />
+      <img src={Mimikyu} alt="mimikyu" className="pokemon--image" />
+      <img src={Rayquaza} alt="rayquaza" className="pokemon--image" />
+      <img src={Dragonite} alt="dragonite" className="pokemon--image" />
+      <img src={Gyarados} alt="gyardos" className="pokemon--image" />
+      <img src={Snorlax} alt="snorlax" className="pokemon--image" />
+    </div>
+  );
 };
 
 export default Cards;

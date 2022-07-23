@@ -1,0 +1,12 @@
+export const Pikachu = require("./Pikachu.png");
+export const Charizard = require("./Charizard.png");
+export const Litten = require("./Litten.png");
+export const Sharpedo = require("./Sharpedo.png");
+export const Zygarde = require("./Zygarde.png");
+export const Decidueye = require("./Decidueye.png");
+export const Garchomp = require("./Garchomp.png");
+export const Mimikyu = require("./Mimikyu.png");
+export const Rayquaza = require("./Rayquaza.png");
+export const Dragonite = require("./Dragonite.png");
+export const Gyarados = require("./Gyarados.png");
+export const Snorlax = require("./Snorlax.png");
