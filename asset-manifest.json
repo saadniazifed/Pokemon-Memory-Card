@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Pokemon-Memory-Card/static/css/main.e6c13ad2.css",
-    "main.js": "/Pokemon-Memory-Card/static/js/main.a2e112c2.js",
+    "main.css": "/Pokemon-Memory-Card/static/css/main.f39a4c68.css",
+    "main.js": "/Pokemon-Memory-Card/static/js/main.e4928095.js",
+    "static/media/Orbitron-Bold.ttf": "/Pokemon-Memory-Card/static/media/Orbitron-Bold.2dd3cc0a5866320bdf54.ttf",
+    "static/media/logo.png": "/Pokemon-Memory-Card/static/media/logo.7f8ab9a77b8a10afb032.png",
     "index.html": "/Pokemon-Memory-Card/index.html",
-    "main.e6c13ad2.css.map": "/Pokemon-Memory-Card/static/css/main.e6c13ad2.css.map",
-    "main.a2e112c2.js.map": "/Pokemon-Memory-Card/static/js/main.a2e112c2.js.map"
+    "main.f39a4c68.css.map": "/Pokemon-Memory-Card/static/css/main.f39a4c68.css.map",
+    "main.e4928095.js.map": "/Pokemon-Memory-Card/static/js/main.e4928095.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.a2e112c2.js"
+    "static/css/main.f39a4c68.css",
+    "static/js/main.e4928095.js"
   ]
 }
