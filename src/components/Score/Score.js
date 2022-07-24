@@ -7,17 +7,38 @@ const Score = () => {
   const [bestScore, setBestScore] = useState(0);
 
   function updateCurrentScore(e) {
-    setCurrentScore(currentScore + 1);
+    setCurrentScore((prev) => {
+      const latestScore = prev + 1;
+      if (latestScore > bestScore) {
+        setBestScore(latestScore);
+      }
+      return latestScore;
+    });
   }
+
+  function updateBestScore(e) {
+    if (bestScore < e) {
+      setBestScore(e);
+    }
+  }
+
+  const resetScore = () => {
+    setCurrentScore(0);
+  };
 
   return (
     <>
       <div className="score--container">
         <div className="currentScore">Current Score: {currentScore} </div>
-        <div className="bestScore">Best Score: </div>
+        <div className="bestScore">Best Score: {bestScore}</div>
       </div>
       <div>
-        <Cards updateCurrentScore={updateCurrentScore} />
+        <Cards
+          updateCurrentScore={updateCurrentScore}
+          updateBestScore={updateBestScore}
+          resetScore={resetScore}
+          setBestScore={setBestScore}
+        />
       </div>
     </>
   );
